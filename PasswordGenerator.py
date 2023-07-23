@@ -1,3 +1,8 @@
+# import random and string modules which are neccessary for the project
+# Random helps generate various combination of Password
+# Declaring variables according to the condition of using a special_character or digits and minimum length of the Password
+
+
 import random
 import string
 
@@ -13,6 +18,7 @@ def generate_password(min_length, numbers = True , special_characters = True):
         characters += special
 
     pwd = ""
+    
     meets_criteria = False
     has_number = False
     has_special = False
