@@ -1,3 +1,8 @@
+# This is a Python Mini Project of a Alarm Clock
+# import playsound by using "pip" command in Command Prompt
+# Alarm will play after some delay which will accepted as User's Input
+# MP3 used in this Project must be present in the Project Directory
+
 from playsound import playsound
 import time
 
