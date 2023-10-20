@@ -35,4 +35,6 @@ def run_discord_bot():
 
     bot.run(TOKEN)
 
-run_discord_bot()
+if __name__ == '__main__':
+    run_discord_bot()
+
